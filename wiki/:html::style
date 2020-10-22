@@ -1,0 +1,34 @@
+/html//style
+
+./td
+
+//div/a/@href
+
+
+
+
+
+//h2/span[@class="mw-headline"]/text()
+
+//table[@class="wikitabl sortable jquery-tablesorter"]/tbody/tr
+
+//*[@id="mw-content-text"]/div[2]/table/tbody/tr
+
+//div[@class="mw-parser-output"]/table/tbody/tr
+
+./td[1]/i/b/a/text()
+./td[1]/i/a/text()
+
+
+./td[1]//text()
+
+row.xpath('./td[1]//text()')
+
+
+
+''.join(row.xpath('./td[1]i/'))
+
+
+row.xpath('./@style')
+
+is_bestpicture = bool(row.xpath('./@style'))
